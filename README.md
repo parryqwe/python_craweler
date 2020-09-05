@@ -24,6 +24,14 @@
 2.1 urlopen  
 2.1.1 read  
 ## from bs4 import BeautifulSoup
+*find,find_all  
+*select,select_one  
+*find_parent,find_parents  
+*find_previous_siblings,find_next_siblings  
+*_class,.  
+*limit  
+*get
+*getText
 3.1 BeautifulSoup(html,'html.parser')  
 3.2 BeautifulSoup(text,'lxml')  
 3.2.1 prettify  
@@ -36,10 +44,10 @@
 3.2.3.3 next_elements(屬性)  
 3.2.3.3.1 NavigableString,name(屬性)  
 3.2.3.4 get  
-3.2.4 find_all(text,class_,limit,href)  
+3.2.4 find_all(text or list,class_ or 其他條件,limit)      
 3.2.4.1 string(屬性)  
 3.2.4.2 get  
-3.2.5 select(text)  
+3.2.5 select(text,limit)   
 3.2.5.1 string(屬性)  
 3.2.5.2 children(屬性)  
 3.2.5.2.1 name,string(屬性)  
