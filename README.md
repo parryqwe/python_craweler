@@ -1,4 +1,5 @@
 # python_craweler 
+https://www.itread01.com/content/1546835412.html  
 ## requests
 1.1 get(html,params=dict,stream,cookies=dict,headers=dict,auth=tuple,timeout)  
 1.1.1 text(屬性)  
